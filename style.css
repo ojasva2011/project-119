@@ -1,0 +1,64 @@
+body{
+    background-color: greenyellow;
+}
+h1{
+    font-family: 'Special Elite', cursive;
+    background-color: aliceblue;
+    color: blue;
+}
+#timer{
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    margin-right: 100px;
+}
+#score{
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#your_sketch{
+    font-weight: bold;
+    font-size: 15px ;
+    font-family: 'Special Elite', cursive;
+    
+}
+#confidence{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+}
+#sketch_to_be_drawn{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    color: red;
+
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1-x 1px 38px white;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color{
+    from{box-shadow: 1px 1px 38px grey; }
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+p, span{
+    padding-top: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+}
